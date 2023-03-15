@@ -47,15 +47,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a proficient software developer, I have cultivated valuable
-        expertise in TypeScript and JavaScript, as well as a range of
-        prominent frameworks, including React, Node.js, and Three.js. 
-        I am an adept and efficient learner who consistently works closely 
-        with clients to devise solutions that are both scalable
-        and user-friendly, ultimately addressing real-world challenges 
-        in a meaningful and effective way. With my skill set and commitment 
-        to success, I am confident that I can collaborate with anyone in order to
-        bring your innovative ideas to fruition. 
+        As someone who has always been captivated by the intersection of technology and the
+        natural world, I have spent my career exploring both realms. As a scuba diving instructor, I
+        have had the opportunity to witness the breathtaking beauty of the ocean firsthand, and 
+        have used my photography skills to capture its essence. However, I have also felt a strong 
+        pull towards technology from a young age, which has led me to pursue a career change by enrolling in a 
+        Software Engineering Immersive course. Through this experience, I have discovered a 
+        passion for creating and building, and am now seeking a dynamic team in a fast-paced
+        environment where I can continue to develop my skills and make an impact. My ultimate
+        goal is to secure a role in a developing sector where I can put my new skills to the test and
+        continue to grow professionally. As a proficient software developer, I possess a wealth of
+        expertise in Ruby, TypeScript and JavaScript, as well as a range of prominent frameworks like
+        React, Node.js, and Three.js. With my efficient learning style, I consistently collaborate 
+        with clients to devise scalable and user-friendly solutions that effectively address real-
+        world challenges. With my unique skill set and unwavering dedication to success, I am 
+        confident in my ability to collaborate with anyone to turn innovative ideas into a reality.
         <br />
         <br />
         
