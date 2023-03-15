@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
+  ga,
+  med,
+  wallaroos,
   carrent,
   jobit,
   tripguide,
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Business Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Application Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "SEO and Marketing",
     icon: creator,
   },
 ];
@@ -116,24 +116,36 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack Software Engineer",
+    company_name: "General Assembly",
+    icon: ga,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Recent Graduate of General Assembly's Software Engineering Immersive Course.",
+      "Collaborating with other students in pairs and teams to create full-stack web apps",
+      "Implementing responsive designs, CRUD, DRY code and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "CTO / CMO",
+    company_name: "PNW Med. Suppliers",
+    icon: med,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2020 - June 2020",
+    points: [
+      "Created a landing page and hosting for users to purchase products, and handled onsite SEO.",
+      "Worked with sales team and clients to maintain user accounts and handle orders.",
+      "Created web crawlers to scrape for contact information in order to reach decison makers.",
+    ],
+  },
+  {
+    title: "Lead Web Developer",
+    company_name: "Wallaroo's Furniture",
+    icon: wallaroos,
+    iconBg: "#383E56",
+    date: "Dec 2017 - Jan 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +154,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Freelance Web Developer",
+    company_name: "Shopify/WooCommerce",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2014 - Dec 2017",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
