@@ -7,6 +7,11 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+//
+
+//
+
+//3wKn52gpYljqXiidQ
 
 const Contact = () => {
   const formRef = useRef();
@@ -15,11 +20,48 @@ const Contact = () => {
     email: '',
     message: '',
   });
+}
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {name, value } = e.target;
+    
+    setForm({ ...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    
+    emailjs.send( 
+      'service_s8hmuup',
+      'template_a2ci20e',
+      {
+        from_name: form.name,
+        to_name: 'Ethan',
+        from_email: form.email,
+        to_email: 'ethan@ethan-berk.com',
+        message: form.message
+     },
+     '3wKn52gpYljqXiidQ'
+    )
+    .then (() => {
+    setLoading(false);
+    alert('Thank you! I will reach out as soon as possible!');
+
+    setForm({
+      name: '',
+      email: '',
+      message: '',
+    })
+  }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+      
+      alert('Something went wrong...')
+  })
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -89,6 +131,6 @@ className="xl:flex-1 xl:h-auto m:h-[550px] h-[350px]"
 <EarthCanvas />
 </motion.div>
     </div>
-  )
-}
+  )}
+
 export default SectionWrapper(Contact, "contact")
