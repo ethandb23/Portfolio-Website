@@ -1,5 +1,5 @@
 <body>
-  <h1>My CV / Portfolio/CV</h1>
+  <h1>My CV / Portfolio</h1>
   <p>This portfolio/CV website is a dynamic and interactive platform that will be used to showcase my skills, experience, and projects. It is built using the MERN stack, which includes MongoDB, Express, React, and Node.js, as well as three.js and tailwindcss for styling. The website features responsive design, interactive 3D animations, and a contact form for users to get in touch. Overall, I hope to utilize this website as a powerful tool for me to showcase my portfolio, and attract potential clients or employers.</p>
   
   <h2>Technologies Used</h2>
