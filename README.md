@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Web Developer Portfolio/CV</title>
-</head>
 <body>
-  <h1>Web Developer Portfolio/CV</h1>
+  <h1>My CV / Portfolio/CV</h1>
   <p>This is my personal portfolio/CV website, built using a MERN stack, three.js and tailwindcss for styling, and deployed on Hostinger.</p>
   
   <h2>Technologies Used</h2>
