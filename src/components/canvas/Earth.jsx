@@ -8,11 +8,11 @@ import CanvasLoader from "../Loader";
 
 const Earth = () => {
 
-  const earth = useGLTF('./slug/scene.gltf')
+  const earth = useGLTF('./spacefish/scene.gltf')
   return (
     <primitive
     object={earth.scene} 
-    scale={275}
+    scale={10}
     position-y={-1}
     rotation-y={5}
       />
@@ -42,7 +42,7 @@ const EarthCanvas = () => {
         />
         <Earth />
         <primitive object={pointLight}
-        intensity={1} position={[-4, 50, 1]} />
+        intensity={1} position={[5, 0, 0]} />
       </Suspense>
     </Canvas>
   )
