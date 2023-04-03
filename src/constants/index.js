@@ -215,6 +215,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/ethandb23/Chat-Bot",
+    deploy_link: "",
   },
   {
     name: "Fitness Tracker",
@@ -236,6 +237,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/ethandb23/fitness-tracker",
+    deploy_link: "https://fitnesstracker-ga.netlify.app/",
   },
   {
     name: "Dad Jokes",
@@ -257,6 +259,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/ethandb23/dad-jokes",
+    deploy_link: "https://dad-jokes-api-list-project-2.netlify.app/",
   },
 ];
 
