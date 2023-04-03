@@ -245,7 +245,7 @@ const projects = [
       "An app whic allows users to fetch and collect dad jokes in a saved list using the icanhazdadjoke api.",
     tags: [
       {
-        name: "restapi",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -253,7 +253,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
