@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  padi,
 } from "../assets";
 
 export const navLinks = [
@@ -129,6 +130,19 @@ const experiences = [
     ],
   },
   {
+    title: "PADI Staff Instructor",
+  company_name: "Spiration Scuba LLC",
+  icon: padi,
+  iconBg: "#E6DEDD",
+  date: "June 2014 - Dec 2017",
+  points: [
+    "Developing and maintaining ecommerce websites on the Shopify platform.",
+    "Collaborating with clients to establish a clear brand and marketing strategy.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Monitoring and reporting site analytics to clients.",
+    ],
+  },
+  {
     title: "CTO",
     company_name: "PNW Med. Supply",
     icon: med,
@@ -159,10 +173,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2014 - Dec 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining ecommerce websites on the Shopify platform.",
+      "Collaborating with clients to establish a clear brand and marketing strategy.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Monitoring and reporting site analytics to clients.",
     ],
   },
 ];
