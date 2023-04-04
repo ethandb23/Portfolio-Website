@@ -80,6 +80,8 @@ className="mt-12 flex flex-col gap-8"
 >
     <label className="flex, flex-col">
       <span className="text-white font-medium mb-4">Your Name:</span>
+    
+    <h3>(i.e. Ethan Berk)</h3>
     <input
     type="text"
     name="name"
@@ -89,9 +91,9 @@ className="mt-12 flex flex-col gap-8"
     className="bg-tertiary py-4 px-6 placeholder:text-secondary 
     text-white rounded-lg outlined-none border-none font-medium" />
     </label>
-
     <label className="flex, flex-col">
       <span className="text-white font-medium mb-4">Your Email:</span>
+      <h3>(i.e. ethan@ethan-berk.com)</h3>
     <input
     type="emil"
     name="email"
@@ -104,6 +106,9 @@ className="mt-12 flex flex-col gap-8"
 
     <label className="flex, flex-col">
       <span className="text-white font-medium mb-4">Your Message:</span>
+    <h3>(i.e. <a href='https://github.com/ethandb23'> Click HERE to visit my Github!</a> or
+    <a href='https://linkedin/in/ethandberk'> Click HERE to visit my LinkedIn!</a> ) </h3>
+    
     <textarea
     rows="7"
     name="message"
@@ -121,7 +126,7 @@ className="mt-12 flex flex-col gap-8"
 
     Send
     </button>
-    
+   
 </form>
 </motion.div>
 
