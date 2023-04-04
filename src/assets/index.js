@@ -25,11 +25,12 @@ import shopify from "./company/shopify.png";
 import wallaroos from "./company/wallaroos.png";
 import ga from "./company/ga.png";
 import med from "./company/med.png";
-import padi from './company/padi.png'
+import padi from './company/padi.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ttt from "./ttt.png"
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   tripguide,
   med,
   padi,
+  ttt,
 };

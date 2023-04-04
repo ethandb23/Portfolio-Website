@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   padi,
+  ttt,
 } from "../assets";
 
 export const navLinks = [
@@ -275,6 +276,28 @@ const projects = [
     source_code_link: "https://github.com/ethandb23/dad-jokes",
     deploy_link: "https://dad-jokes-api-list-project-2.netlify.app/",
   },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "A Classic Tic Tac Toe Game.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ttt,
+    source_code_link: "https://github.com/ethandb23/TTT",
+    deploy_link: "https://codepen.io/Ethandberk/full/rNrwMzo",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
