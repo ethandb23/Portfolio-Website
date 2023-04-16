@@ -150,9 +150,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2020 - June 2020",
     points: [
-      "As Chief Technology Ofcer (CTO), my primary focus was to develop and execute a technology strategy that aligned with the overall goals and objectives of the organization. To achieve this, I prioritized the following key areas:",
-      "Innovation: Innovation is the key to staying competitive and relevant in today's fast-paced business world. it is crucial to a culture of innovation by encouraging experimentation, promoting creativity, and rewarding risk-taking.",
-      "Customer-centricity: At the heart of any successful technology strategy is a deep understanding of customer needs. I worked closely with the marketing and sales teams to gather feedback from customers and use this feedback to inform our technology roadmap",
+      "As Chief Technology Officer (CTO), my primary focus was to develop web crawlers that would scrape for contact information of key decision makers, then pass that information along to the sales team.",
+      "I was also in charge of setting up landing pages in order to capture and convert shoppers online.",
     ],
   },
   {
@@ -162,9 +161,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2017 - Jan 2020",
     points: [
-      "Website Development: Design, develop, and maintain the company's website, ensuring that it is user-friendly, visually appealing, and optimized for search engines. This includes creating wireframes, mockups, and prototypes, as well as coding and testing the website.",
-      "Content Management: Manage and update website content, including product descriptions, images, and pricing. This includes working closely with the marketing team to ensure that the website content is aligned with the company's overall marketing strategy.",
-      "Website Analytics: Monitor and analyze website analytics to identify areas for improvement and make data-driven decisions. This includes setting up and conguring website analytics tools, analyzing user behavior and conversion rates, and making recommendations for optimization",
+      "Website Development: Designed, developed, and maintained the company's website, ensuring that it is user-friendly, visually appealing, and optimized for search engines. This includes creating wireframes, mockups, and prototypes, as well as coding and testing the website.",
+      "Content Management: Managed and updated website content, including product descriptions, images, and pricing. This also included configuring metadata, image descriptions and on-page schema markups for SEO.",
+      "Website Analytics: Monitored and analyzed website analytics to identify areas for improvement and make data-driven decisions. I used tools such as AdWords, Jetpack, and other SEO plugins.",
     ],
   },
   {
@@ -211,7 +210,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "CodeIt",
+    name: "CodeIt (DEPLOYMENT UNDER MAINTENANCE)",
     description:
       "CodeIt is designed to provide users with personalized code suggestions, bug fixes, and syntax corrections in real-time, which can help streamline the coding process and increase productivity.",
     tags: [
