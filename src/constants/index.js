@@ -237,7 +237,7 @@ const projects = [
     deploy_link: "",
   },
   {
-    name: "CodeIt (DEPLOYMENT UNDER MAINTENANCE)",
+    name: "CodeIt",
     description:
       "CodeIt is designed to provide users with personalized code suggestions, bug fixes, and syntax corrections in real-time, which can help streamline the coding process and increase productivity.",
     tags: [
