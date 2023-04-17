@@ -30,7 +30,8 @@ import padi from './company/padi.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import ttt from "./ttt.png"
+import ttt from "./ttt.png";
+import tshirt from "./tshirt.png"
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   med,
   padi,
   ttt,
+  tshirt,
 };
